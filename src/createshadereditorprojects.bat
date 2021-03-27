@@ -1,4 +1,6 @@
+@echo off
+cls
 pushd %~dp0
-devtools\bin\vpc.exe /2010 +shadereditor /mksln shadereditor.sln
+	devtools\bin\vpc.exe +shadereditor /mksln shadereditor.sln /2013
 popd
-pause
+@pause
